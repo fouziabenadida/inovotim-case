@@ -3,7 +3,6 @@ import Slide from './Components/Slide/Slide'
 import Electric from './Components/Electric/Electric'
 import { Routes, Route } from 'react-router-dom'
 import Population from './Components/Population/Population'
-
 import './index.css'
 import VideoComponent from './Components/Video-component/VideoComponent'
 

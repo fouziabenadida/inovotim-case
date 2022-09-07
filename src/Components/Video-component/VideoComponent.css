@@ -1,0 +1,14 @@
+.div-video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 30px;
+}
+.video-btn{
+    margin-top: 0;
+    margin-left: 1400px;
+    background: #024D81;
+    width: 143px;
+    height: 42px;
+}
