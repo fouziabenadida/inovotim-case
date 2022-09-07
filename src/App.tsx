@@ -5,6 +5,7 @@ import { Routes, Route } from 'react-router-dom'
 import Population from './Components/Population/Population'
 
 import './index.css'
+import VideoComponent from './Components/Video-component/VideoComponent'
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path='/population' element={<Population/>} />
         <Route path='/slide' element={<Slide />} />
         <Route path='/electric' element={<Electric />} />
+        <Route path='/video-component' element={<VideoComponent/>}/>
       </Routes>
     </div>
   );
