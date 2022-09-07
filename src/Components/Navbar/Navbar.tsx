@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './Navbar.css'
+import {NavLink} from 'react-router-dom'
 
 
 function NavBar() {
@@ -12,7 +13,7 @@ function NavBar() {
        
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link  href="#home">ANASAYFA</Nav.Link>
+            <Nav.Link to="/slide" as={NavLink} >ANASAYFA</Nav.Link>
             <Nav.Link href="#link">CHAT</Nav.Link>
             <Nav.Link href="#link">PUANLAR</Nav.Link>
             <Nav.Link href="#link">SINIFIM</Nav.Link>
