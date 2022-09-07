@@ -6,6 +6,7 @@ export default function Question() {
   return (
     <>
     <div>
+       
          <h1 className='soru'>SORU</h1>
          <p className='question'>Sence her yenilik bir inovasyon mudur ?</p>
     </div>
