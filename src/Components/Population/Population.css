@@ -1,0 +1,40 @@
+.pop-slide1{
+ 
+  margin-left: 500px;
+}
+.pop-slide2{
+ 
+  margin-left: 500px;
+}
+
+
+.carousel-control-prev {
+    width: 40%;
+    position: absolute;
+    top: 70%;
+    transform: translate(-50px, -50px);
+    display: flex;
+    justify-content: end;
+  }
+  .carousel {
+    position: static;
+  }
+  
+  .carousel-control-next {
+    width: 40%;
+  
+    position: absolute;
+    top: 70%;
+    transform: translate(-50px, -50px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .carousel-control-next-icon {
+    background-image: url("../../../public/assets/carouselnext.png");
+  }
+  .carousel-control-prev-icon {
+    background-image: url("../../../public/assets/carouselprev.png");
+  }
+  
